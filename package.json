@@ -1,26 +1,26 @@
 {
-  "name": "icinga_alt",
-  "version": "0.0.0",
+  "name": "express_coffee_grunt_start",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "start": "node ./bin/www"
   },
   "dependencies": {
-    "body-parser": "~1.12.4",
-    "cookie-parser": "~1.3.5",
-    "debug": "~2.2.0",
-    "express": "~4.12.4",
-    "jade": "~1.9.2",
-    "morgan": "~1.5.3",
-    "serve-favicon": "~2.2.1"
+    "body-parser": "*",
+    "cookie-parser": "*",
+    "debug": "*",
+    "express": "*",
+    "jade": "*",
+    "morgan": "*",
+    "serve-favicon": "*"
   },
   "devDependencies": {
-    "grunt": "^0.4.5",
-    "grunt-concurrent": "^2.0.0",
-    "grunt-contrib-coffee": "^0.13.0",
-    "grunt-contrib-less": "^1.0.1",
-    "grunt-contrib-watch": "^0.6.1",
-    "grunt-nodemon": "^0.4.0",
-    "load-grunt-tasks": "^3.2.0"
+    "grunt": "*",
+    "grunt-concurrent": "*",
+    "grunt-contrib-coffee": "*",
+    "grunt-contrib-less": "*",
+    "grunt-contrib-watch": "*",
+    "grunt-nodemon": "*",
+    "load-grunt-tasks": "*"
   }
 }
