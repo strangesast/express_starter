@@ -12,6 +12,12 @@ module.exports = (grunt) ->
         src: '*.coffee'
         dest: 'routes/'
         ext: '.js'
+      public:
+        expand: true
+        cwd: 'public/coffee/'
+        src: '*.coffee'
+        dest: 'public/js/'
+        ext: '.js'
     less:
       dev:
         expand: true
